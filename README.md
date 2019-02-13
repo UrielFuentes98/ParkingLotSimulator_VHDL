@@ -6,12 +6,21 @@ The simulaton consists of an FPGA, a LCD 20 * 2 screen and a servomotor. The LCD
 The repository contains the following modules besides the main one = Estacionamiento.vhd
 
 Clk_20HZ.vhd - Generates a signal with the frequency needed to control the servomotor.
+
 Cronometro.vhd - Counts time passed.
+
 DebounceUsar.vhd - Debounces input signals from the push buttons.
+
 LCD2.vhd - Shows the screen where the user enters the code.
+
 LCD3.vhd - Shows the screen with the time spent inside the parking lot and the amount to pay.
+
 LCD4.vhd - Shows the screen with the code of the new car to enter.
+
 LCD5.vhd -  Shows the screen when the parking lot is full.
+
 MOD24.vhd - Counts hours.
+
 MOD60.vhd - Counts minutes and seconds.
+
 Servo.vhd - Controls the movement of the servomotr.
