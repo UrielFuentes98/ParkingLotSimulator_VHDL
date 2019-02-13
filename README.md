@@ -23,4 +23,4 @@ MOD24.vhd - Counts hours.
 
 MOD60.vhd - Counts minutes and seconds.
 
-Servo.vhd - Controls the movement of the servomotr.
+Servo.vhd - Controls the movement of the servomotor.
